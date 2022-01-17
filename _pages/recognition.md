@@ -25,4 +25,4 @@ header:
 
 - <p style="text-align:left;">IEEE PAPYRUS - SJCE Mysore<span style="float:right;">Mysuru, IN | Mar 2014</span> </p>
   - **First Prize**
-  - Paper presentation - "Computer Vision Based Tomato Classifier PAPYRUS: IEEE-SJCE"
+  - Paper presentation - "Computer Vision Based Tomato Classifier". PAPYRUS 2014: IEEE-SJCE

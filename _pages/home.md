@@ -17,14 +17,14 @@ I'm Shreekantha (Shree). I'm currently a Speech Recognition Engineer at [Dialpad
 
 **My research interests include:**
 
-- Streaming end-to-end ASR for conversational, telephony and videoconferencing speech
+- Streaming end-to-end ASR for conversational, telephony, and videoconferencing speech
 - Low-latency and computationally constrained scenarios
 - Multi-lingual and code-switched speech recognition
-- Bringing external knowledge into the purely data driven end-to-end architectures
+- Bringing external knowledge into the purely data-driven end-to-end architectures
 
 ---
 
-When I'm not building next-gen ASR products, I conduct research to bring in some classical speech knowledge to the purely data-driven models of recent years. Through this exercise, I'm hoping to blend the pure data-driven architectures with speech knowledge, leading to a reduction in model complexity, faster training/inference and hopefully, deeper insights into speech recognition. 
+When I'm not building next-gen ASR products, I conduct research to bring in some classical speech knowledge to the purely data-driven models of recent years. Through this exercise, I'm hoping to blend the pure data-driven architectures with speech knowledge, leading to a reduction in model complexity, faster training/inference, and hopefully, deeper insights into speech recognition. 
 
 Other problems I am currently working on include 
 - KWS using neural attention
@@ -36,7 +36,7 @@ Other problems I am currently working on include
   - Kannada
   - Sanskrit
 
-Most of my work is in kaldi/K2, ESPnet, NeMo and some custom code in PyTorch ❤️ and TensorFlow 2^.
+Most of my work is in kaldi/K2, ESPnet, NeMo, and some custom code in PyTorch ❤️ and TensorFlow 2^.
 
 ---
 
@@ -47,12 +47,12 @@ Most of my work is in kaldi/K2, ESPnet, NeMo and some custom code in PyTorch ❤
     <img src="/assets/images/cycling.jpg" alt="Shreekantha Nadig" width="800">
 </center>
 
-- Build stuff that interest me
+- Build stuff that interests me
 <center>
     <img src="/assets/images/electronics.jpg" alt="Shreekantha Nadig" width="800">
 </center>
 
-- Conteplate upon the nature of existence and consciousness. Talk to me about it from all perspectives - materialistic, advaitic, dvaitic, etc. "अथातो ब्रह्म जिज्ञासा" (Athāto brahma jijñāsā - **Now** is the time to inquire about the Absolute Truth).
+- Contemplate upon the nature of existence and consciousness. Talk to me about it from all perspectives - materialistic, advaitic, dvaitic, etc. "अथातो ब्रह्म जिज्ञासा" (Athāto brahma jijñāsā - **Now** is the time to inquire about the Absolute Truth).
 
 **This is me in 2022:**
 
