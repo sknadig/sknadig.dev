@@ -15,10 +15,10 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "Shreekantha Nadig"
+locale: "en-IN"
+title: "Shree"
 title_separator: "-"
-name: "Shreekantha Nadig"
+name: "Shree"
 description: "Sharing ideas and progress on Speech and Language technology"
 url: "https://vak.ai" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ og_image: "/assets/images/bio-photo.jpg" # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: "Person" # Person or Organization (defaults to Person)
-  name: "Shrīkāṁta (Shree) Nāḍig" # If the user or organization name differs from the site's name
+  name: "Shree" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://scholar.google.co.in/citations?hl=en&user=92gf1SoAAAAJ"
     - "https://twitter.com/sk_nadig"
@@ -99,11 +99,11 @@ analytics:
 
 # Site Author
 author:
-  name: "Shrīkāṁta (Shree) Nāḍig"
+  name: "Shree"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Building the next-gen ASR system at Dialpad"
   location: "Bengaluru, India"
-  email: "shreekanthnadig@gmail.com"
+  email: "shreekantha.nadig@iiitb.ac.in"
   # uri              : "https://sknadig.dev"
   home: # null (default), "absolute or relative url to link to author home"
   bitbucket:

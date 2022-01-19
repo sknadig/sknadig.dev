@@ -141,6 +141,10 @@ a {
   }
 }
 
+a, u {
+  text-decoration: none;
+}
+
 /* buttons */
 
 button:focus {

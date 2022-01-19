@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-layout: splash
+layout: single
 classes: wide
 author_profile: true
 # header:
