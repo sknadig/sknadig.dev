@@ -48,14 +48,17 @@ feature_row5:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row" type="left" %}
-
-{% include feature_row id="feature_row4" type="left" %}
-
-{% include feature_row id="feature_row5" type="left" %}
-
-{% include feature_row id="feature_row2" type="left" %}
+## MUCS 2021
+#### MUCS 2021: MUltilingual and Code-Switching ASR Challenges for Low Resource Indian Languages
+{% include video id="_ZGWXh3UMiI" provider="youtube" %}
+## Samvaad 2020
+#### Samvaad talk at IIIT-Bangalore on my thesis work
+{% include video id="J5TOt_bKVzI" provider="youtube" %}
+## SPCOM 2020
+#### Multi-target hybrid CTC-Attentional Decoder for joint phoneme-grapheme recognition
+{% include video id="ayjwtK37yDQ" provider="youtube" %}
+#### Jointly learning to align and transcribe using attention-based alignment and uncertainty-to-weigh losses
+{% include video id="K66kjHELnR4" provider="youtube" %}
+## Intel AI
+#### Creating Future-ready AI Talent. Intel & IIIT Bangalore. Intel Software
+{% include video id="IC901JkYIgI" provider="youtube" %}

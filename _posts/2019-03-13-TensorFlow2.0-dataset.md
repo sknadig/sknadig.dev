@@ -1,7 +1,7 @@
 ---
 title: "Tensorflow 2.0 tf.data.Dataset.from_generator"
-# categories: [TensorFlow]
-# tags: [Dataset]
+categories: [TensorFlow]
+tags: [Dataset]
 excerpt: "My findings about the new TensorFlow 2.0 Dataset API"
 header:
   overlay_color: "#000000"

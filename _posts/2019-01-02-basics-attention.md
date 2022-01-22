@@ -31,9 +31,7 @@ As we discussed in the Encoder-Decoder framework:
 
 In the Encoder-Decoder framework, the Encoder **tries** to summarize the entire input sequence in a fixed dimension vector $$h_{t}$$.
 
-<center>
-    <img src="/assets/posts/att_basics/enc_dec_post_att.png" alt="Basic Encoder-Decoder" width="800">
-</center>
+![image-center](/assets/posts/att_basics/enc_dec_post_att.png){: .align-center}
 
 ## Potential issues with Encoder-Decoder
 
@@ -129,9 +127,7 @@ $$
 
 - This image summarizes the Attention mechanism. Observe each annotation vector is scaled by the attention weight $$\alpha_{i,j}$$
 
-<center>
-<img src="/assets/posts/att_basics/att_basic.gif" alt="Basic Attention" width="800">
-</center>
+![image-center](/assets/posts/att_basics/att_basic.gif){: .align-center}
 
 - In the Encoder-Decoder network - Given the Decoder hidden representation $$s_{i-1}$$ (from the previous output time) and the output symbol $$y_{i-1}$$ (the previous output symbol), we can predict the output symbol at the current time step as:
 
@@ -175,15 +171,11 @@ I trained an Attention model on the TIMIT dataset using the ESPnet toolkit and v
 
 ### Phoneme decoding - final weights
 
-<center>
-<img src="/assets/posts/att_basics/phn_FJSJ0_SX404.ep.20.png" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/phn_FJSJ0_SX404.ep.20.png){: .align-center}
 
 ### Character decoding - final weights
 
-<center>
-<img src="/assets/posts/att_basics/char_FJSJ0_SX404.ep.20.png" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/char_FJSJ0_SX404.ep.20.png){: .align-center}
 
 On the $$x$$ axis from left to right is the Encoder index ranging from $$0$$ to $$T$$, where $$T$$ is the length of the input feature vector sequence. On the $$y$$ axis from top to bottom is the Decoder index ranging from $$0$$ to $$U$$, where $$U$$ is the length of the output symbol sequence.
 
@@ -193,15 +185,12 @@ If you see the Attention weights before the model is trained (at epoch 0), the A
 
 ### Phoneme decoding - initial weights
 
-<center>
-<img src="/assets/posts/att_basics/phn_random_FJSJ0_SX404.ep.01.png" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/phn_random_FJSJ0_SX404.ep.01.png){: .align-center}
 
 ### Character decoding - initial weights
 
-<center>
-<img src="/assets/posts/att_basics/char_random_FJSJ0_SX404.ep.01.png" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/char_random_FJSJ0_SX404.ep.01.png){: .align-center}
+
 
 ### Attention weights for single output symbol
 
@@ -213,29 +202,21 @@ If we plot the Attention weights over the annotation sequence $$h_{t}$$ for gene
 
 Here's what the Attention weights look like for generating each $$y_{i}$$ at epoch 1.
 
-<center>
-<img src="/assets/posts/att_basics/att_single_01_phns_progress.gif" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/att_single_01_phns_progress.gif){: .align-center}
 
 Here's what the Attention weights look like for generating each $$y_{i}$$ at epoch 20.
 
-<center>
-<img src="/assets/posts/att_basics/att_single_20_phns_progress.gif" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/att_single_20_phns_progress.gif){: .align-center}
 
 We could also see how Attention weights progress over time (epochs) to get deeper understanding of how the model is learning. I did just that combining all the Attention weights from each epoch into a gif. Here's what it looks like:
 
 ### Phoneme decoding - Attention weights over epochs
 
-<center>
-<img src="/assets/posts/att_basics/phn_att_progress.gif" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/phn_att_progress.gif){: .align-center}
 
 ### Character decoding - Attention weights over epochs
 
-<center>
-<img src="/assets/posts/att_basics/char_att_progress.gif" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/char_att_progress.gif){: .align-center}
 
 ## Before we start with the different Attention models
 
@@ -249,14 +230,10 @@ $$
 \end{equation}
 $$
 
-<center>
-<img src="/assets/posts/att_basics/diff_dim.png" alt="Dimension mismatch" width="800">
-</center>
+![image-center](/assets/posts/att_basics/diff_dim.png){: .align-center}
 
 To overcome this issue, we project each of these vectors to a fixed dimension and this **non-linear projection** is learnt along with the other parameters of the network.
 
-<center>
-<img src="/assets/posts/att_basics/dim_match.png" alt="Matching the dimensions" width="800">
-</center>
+![image-center](/assets/posts/att_basics/dim_match.png){: .align-center}
 
 In the [next post]({% post_url 2019-01-10-attention%}) we will discuss about the different Attention models available in the [ESPnet](https://github.com/espnet/espnet) toolkit.

@@ -1,7 +1,7 @@
 ---
 title: "Encoder-Decoder framework for Speech Recognition"
-# categories: [speech, attention]
-# tags: [espnet, speech]
+categories: [speech, attention]
+tags: [espnet, speech]
 excerpt: "Introduction to Encoder-Decoder framework and it's significance"
 header:
   image: /assets/posts/enc_dec/encoder_decoder_header.png
@@ -61,9 +61,7 @@ This challenging problem of **sequence modeling** has been the interest of speec
 
 - $$h = (h_{1}, h_{2}, .........., h_{T})$$ be the Encoder network output which is the encoded hidden vector sequence of length $$T$$.
 
-<center>
-    <img src="/assets/posts/enc_dec/encoder.gif" alt="A BLSTM Encoder" width="800">
-</center>
+![image-center](/assets/posts/enc_dec/encoder.gif){: .align-center}
 
 - Each encoded representation $$h_{t}$$ contains information about the input sequence with **focus** on the $$t^{th}$$ input of the sequence.
 
@@ -111,9 +109,7 @@ $$
 
 We will stop generating the output symbol sequence when the Decoder generates an **\<eos\>** - end of sequence token.
 
-<center>
-    <img src="/assets/posts/enc_dec/encoder_decoder.gif" alt="A BLSTM Encoder" width="800">
-</center>
+![image-center](/assets/posts/enc_dec/encoder_decoder.gif){: .align-center}
 
 ## Summary
 

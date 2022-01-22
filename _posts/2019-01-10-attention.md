@@ -82,9 +82,7 @@ c = torch.sum(enc_h * att_prev.view(batch, h_length, 1), dim=1)
 
 ### No attention - full picture
 
-<center>
-<img src="/assets/posts/espnet_attention/noatt.png" alt="Dot product attention" width="800">
-</center>
+![image-center](/assets/posts/espnet_attention/noatt.png){: .align-center}
 
 ## Content-based Attention
 
@@ -115,9 +113,7 @@ Here's an image explaining Dot Product Attention
 
 Here, **dec_z** vector is the Decoder hidden state.
 
-<center>
-<img src="/assets/posts/espnet_attention/02_attdot/attdot.gif" alt="Dot product attention" width="800">
-</center>
+![image-center](/assets/posts/espnet_attention/02_attdot/attdot.gif){: .align-center}
 
 As we discussed in the [previous post](http://sknadig.dev/basics-attention/#before-we-start-with-the-different-attention-models), these representations are in different dimensions. So, we learn a transformation to transform them to same dimensions so that we can compare them using dot product or addition.
 This transformation is learnt with other parameters using backprop.
@@ -138,21 +134,15 @@ c = torch.sum(enc_h * w.view(batch, h_length, 1), dim=1)
 
 ### Dot product attention - full picture
 
-<center>
-<img src="/assets/posts/espnet_attention/02_attdot/10.png" alt="Dot product attention" width="800">
-</center>
+![image-center](/assets/posts/espnet_attention/02_attdot/10.png){: .align-center}
 
 If we are computing the attention weights based on only the contents of the vectors from Decoder and Encoder, similar Annotation vectors get weighed equally irrespective of the position.
 We can see this clearly from the Attention plots from the model. Observe in the following image how the Attention weights are not monotonic and tend to be distributed near positions where the Annotation vectors are similar in the acoustic space.
 
-<center>
-<img src="/assets/posts/espnet_attention/02_attdot/att_ws.png" alt="Dot product attention" width="800">
-</center>
+![image-center](/assets/posts/espnet_attention/02_attdot/att_ws.png){: .align-center}
 
 We could also plot where the model is attending to for generating each output symbol. Here, I have added an overlay for each row of the first image just to highlight which output symbol is being generated. The actual attention weights look like the above image.
 
 We could also correlate this with the spectrogram of the utterance, since we know how much sub-sampling was done in the model. I have used a sub-sampling of **1_2_2_1_1**. In our utterance FJSJ0_SX404, if we use a window size of 250ms and a frame shift of 10ms, we get 240 frames of feature vectors. Because of sub-sampling in our model, these features are mapped to 60 feature vectors after the Encoder network.
 
-<center>
-<img src="/assets/posts/espnet_attention/02_attdot/att_dot_plots.gif" alt="Dot product attention" width="800">
-</center>
+![image-center](/assets/posts/espnet_attention/02_attdot/att_dot_plots.gif){: .align-center}
