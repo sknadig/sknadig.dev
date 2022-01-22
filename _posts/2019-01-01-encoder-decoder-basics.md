@@ -6,15 +6,7 @@ excerpt: "Introduction to Encoder-Decoder framework and it's significance"
 header:
   image: /assets/posts/enc_dec/encoder_decoder_header.png
   teaser: /assets/posts/enc_dec/enc_dec_post_att_teaser.png
-  #overlay_color: "#333"
-# author_profile: false
-
-# sidebar:
-#   - title: "Title"
-#     text: "Some text here."
-#   - title: "Another Title"
-#     text: "More text here."
-
+  overlay_color: "#000000"
 toc: true
 # toc_sticky: true
 classes: wide

@@ -5,7 +5,7 @@ layout: single
 classes: wide
 author_profile: true
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   overlay_filter: "0.44"
 ---
 

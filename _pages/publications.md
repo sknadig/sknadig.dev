@@ -5,7 +5,7 @@ layout: single
 classes: wide
 author_profile: true
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   overlay_filter: "0.5"
 ---
 - ["Avengers, Ensemble! Benefits of ensembling in grapheme-to-phoneme prediction" (2021). Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology](https://aclanthology.org/2021.sigmorphon-1.16/). Vasundhara Gautam, Wang Yau Li, Zafarullah Mahmood, Fred Mailhot, **Shreekantha Nadig**, Riqiang Wang, and Nathan Zhang.

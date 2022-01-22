@@ -4,7 +4,7 @@ title: "Attention models in ESPnet toolkit for Speech Recognition"
 # tags: [espnet, speech]
 excerpt: "Detailed discussion of Attention models for Speech Recognition in ESPnet toolkit."
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   teaser: /assets/images/code_teaser.png
 
 toc: true

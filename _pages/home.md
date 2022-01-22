@@ -7,7 +7,7 @@ author_profile: true
 # header:
 #   image: /assets/images/sknadig-bg.jpg
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   overlay_filter: "0.5"
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Tensorflow 2.0 tf.data.Dataset.from_generator"
-# categories: [speech, attention]
-# tags: [espnet, speech]
+# categories: [TensorFlow]
+# tags: [Dataset]
 excerpt: "My findings about the new TensorFlow 2.0 Dataset API"
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   teaser: /assets/images/code_teaser.png
 
 toc: true

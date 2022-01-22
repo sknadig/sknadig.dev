@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 header:
   overlay_image: /assets/images/sknadig-bg.jpg
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   overlay_filter: "0.44"
 toc: true
 toc_label: "My Work"

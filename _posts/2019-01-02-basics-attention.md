@@ -4,7 +4,7 @@ title: "Introduction to Attention models for Speech Recognition"
 # tags: [espnet, speech]
 excerpt: "Introduction to Attention models and the differences with the Encoder-Decoder framework"
 header:
-  overlay_color: "#033b52"
+  overlay_color: "#000000"
   teaser: /assets/images/code_teaser.png
 toc: true
 # toc_sticky: true
