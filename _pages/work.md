@@ -23,15 +23,16 @@ toc_sticky: true
     </span>
 </p>
 
-- **Architect** the Dialpad next-gen ASR system with streaming end-to-end architectures
+- **Architect** and built a next-gen Speech Recognition product end-to-end from R&D to production that is toolkit agnostic and performing better than HMM hybrid ASR models
 - **Lead the R&D** on streaming end-to-end ASR for conversational, telephony, and videoconferencing speech under low latency and multi accent scenarios
 - **Benchmarked** various toolkits including Kaldi, K2, ESPnet, NeMo, and WeNet to architect the next-gen ASR system
-- **Built and benchmarked** various end-to-end ASR architectures with CTC, Attention-based Encoder-Decoder (AED), Transducer, Transformer, and Conformer models with hybrid ASR models and external ASR services
+- **Trained and benchmarked** various end-to-end ASR architectures with CTC, Attention-based Encoder-Decoder (AED), Transducer, Transformer, and Conformer models with hybrid ASR models and external ASR services
 - Developed interfaces for the **shallow fusion** of multi-level (sub-word and word) RNNLMs and n-gram LMs
 - Developed methods to **bias the models** towards a list of keywords, resulting in an absolute WERR of **7%**
 - Automated the **data preparation pipeline** for training ASR models, reducing the turnaround time for experiments and increasing productivity of the team
 - Developed **pronunciation-assisted sub-word models** using fast-align, GIZA++, and Pynini, resulting in an absolute WERR of **3%** compared to BPE sub-words
 - Post-training quantization of ASR models to achieve **50%** faster RTF and **75%** smaller models on disk
+- Implemented the ASR inference in **ONNX runtime**, reducing the latency by **3x**
 - Developed **performance monitoring** techniques for end-to-end ASR models based on RNN-AED and CTC confidence scores, and their efficacy in semi-supervised and self-supervised learning techniques
 - Developed better **endpoint detection** for hybrid models and achieved **4%** relative WERR
 - Developed a **web-app** for internal users to query production calls and visualize hypotheses using wavesurfer-js
