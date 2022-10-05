@@ -13,7 +13,7 @@ header:
 
 Hello there!
 
-I'm Shreekantha (Shree). I'm currently a Speech Recognition Engineer at [Dialpad](https://www.dialpad.com/), building the next-gen ASR product. Before this, I was pursuing MS by Research in Data Science at [IIIT-Bangalore](https://www.iiitb.ac.in/) under the supervision of [Prof. Sachit Rao](https://www.iiitb.ac.in/faculty/sachit-rao) and [Prof. V. Ramasubramanian](https://www.iiitb.ac.in/faculty/v-ramasubramanian), where I also worked at the [E-Health Research Center (EHRC)](https://ehrc.iiitb.ac.in/) and the [Machine Intelligence and Robotics Center (MINRO)](https://minro.org/) as a Research Scholar. I graduated with a thesis on ["Multi-task learning in end-to-end attention-based automatic speech recognition"](https://drive.google.com/file/d/1KAS1Hm0-9ZcAxc7h3YIIKxAz9lbgBD5i/view?usp=sharing). Before joining IIIT-Bangalore, I was with Sonus Networks (Now [Ribbon Communications](https://ribboncommunications.com/)) where I worked on developing and testing [Element Management Systems](https://ribboncommunications.com/company/get-help/glossary/element-management-system-ems) for 4G-VOIP products. I have a B.E. in Telecommunication Engineering from [JNNCE Shivamogga (VTU)](https://jnnce.ac.in/).
+I'm Shreekantha (Shree). I'm currently a Speech Recognition Engineer at [Dialpad Canada](https://www.dialpad.com/), leading the next-gen ASR product efforts. Before this, I was pursuing MS by Research in Data Science at [IIIT-Bangalore](https://www.iiitb.ac.in/) under the supervision of [Prof. Sachit Rao](https://www.iiitb.ac.in/faculty/sachit-rao) and [Prof. V. Ramasubramanian](https://www.iiitb.ac.in/faculty/v-ramasubramanian), where I also worked at the [E-Health Research Center (EHRC)](https://ehrc.iiitb.ac.in/) and the [Machine Intelligence and Robotics Center (MINRO)](https://minro.org/) as a Research Scholar. I graduated with a thesis on ["Multi-task learning in end-to-end attention-based automatic speech recognition"](https://drive.google.com/file/d/1KAS1Hm0-9ZcAxc7h3YIIKxAz9lbgBD5i/view?usp=sharing). Before joining IIIT-Bangalore, I was with Sonus Networks (Now [Ribbon Communications](https://ribboncommunications.com/)) where I worked on developing and testing [Element Management Systems](https://ribboncommunications.com/company/get-help/glossary/element-management-system-ems) for 4G-VOIP products. I have a Bachelor's degree in Telecommunication Engineering from [JNNCE Shivamogga (VTU)](https://jnnce.ac.in/).
 
 **My research interests include:**
 
@@ -52,6 +52,6 @@ Most of my work is in kaldi/K2, ESPnet, NeMo, and some custom code in PyTorch �
 - Contemplate upon the nature of existence and consciousness. Talk to me about it from all perspectives - materialistic, advaitic, dvaitic, etc. "अथातो ब्रह्म जिज्ञासा" (Athāto brahma jijñāsā - **Now** is the time to inquire about the Absolute Truth).
 
 **This is me in 2022:**
-![image-center](/assets/images/Shreekantha_Nadig.jpg){: .align-center}
+![image-center](/assets/images/Shreekantha_Nadig2.jpg){: .align-center}
 
 You can reach me at [shreekantha.nadig@iiitb.ac.in](mailto:shreekantha.nadig@iiitb.ac.in)
