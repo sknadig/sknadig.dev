@@ -17,7 +17,7 @@ toc_sticky: true
 ## Dialpad, Inc.
 
 <p style="text-align:left;">
-    Speech Recognition Engineer
+    Senior Speech Recognition Engineer
     <span style="float:right;">
         Dec 2019 - Present
     </span>
