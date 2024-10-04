@@ -40,18 +40,4 @@ Most of my work is in kaldi/K2, ESPnet, NeMo, and some custom code in PyTorch �
 
 ---
 
-**When I'm not working on Speech and Language Technology:**
-
-- I love to go cycling
-![image-center](/assets/images/cycling.jpg){: .align-center}
-
-
-- Build stuff that interests me
-![image-center](/assets/images/electronics.jpg){: .align-center}
-
-- Contemplate upon the nature of existence and consciousness. Talk to me about it from all perspectives - materialistic, advaitic, dvaitic, etc. "अथातो ब्रह्म जिज्ञासा" (Athāto brahma jijñāsā - **Now** is the time to inquire about the Absolute Truth).
-
-**This is me in 2022:**
-![image-center](/assets/images/Shreekantha_Nadig2.jpg){: .align-center}
-
 You can reach me at [shreekantha.nadig@iiitb.ac.in](mailto:shreekantha.nadig@iiitb.ac.in)
